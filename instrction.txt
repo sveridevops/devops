@@ -1,0 +1,32 @@
+git --version
+sudo apt-get update
+sudo apt-get install git
+verify the installation by checking git--version
+
+create project folder (mkdir devops)
+change your working directory to project folder (cd devops)
+git init
+git config --global user.name "Somnath Zambare"
+git config --global user.email "sz@gmail.com"
+Create Project files 
+git status  #to see the added and modified files in working directory as well staging
+git add .   #move to staging 
+git commit -m "message of modification" #take the snapshot and move to the local repository
+git log # to check the number of commits
+
+
+--------------------
+GitHub
+
+Create Repository 
+copy the Repository address which ends with .git exmaple https://github.com/sveridevops/devops.git
+generate the token
+got profile setting-->Developer Setting-- Gnerate token (classic) 
+Copy the generated token in safe place.
+
+--------
+
+git remote add variablename Repository URL
+example: git remote add d1 https://github.com/sveridevops/devops.git
+git push d1 master
+
