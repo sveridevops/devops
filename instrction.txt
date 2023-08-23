@@ -6,7 +6,7 @@ verify the installation by checking git--version
 create project folder (mkdir devops)
 change your working directory to project folder (cd devops)
 git init
-git config --global user.name "Somnath Zambare"
+git config --global user.name "SZ"
 git config --global user.email "sz@gmail.com"
 Create Project files 
 git status  #to see the added and modified files in working directory as well staging
